@@ -46,7 +46,7 @@ map.on('load', function() {
                     [7, '#E86828'],
                     [22, '#831243'],
                     [61, '#520743'],
-                    [164, '#631A7D']
+                    [200, '#631A7D']
                     ]
             },
             // Get fill-extrusion-height from the source 'height' property.
@@ -54,11 +54,11 @@ map.on('load', function() {
                 'property': 'high33',
                 "stops": [
                     [0, 2000],
-                    [7, 4000],
-                    [19, 7000],
-                    [44, 30000],
-                    [105, 50000],
-                    [198, 60000]
+                    [11, 9000],
+                    [27, 15000],
+                    [64, 30000],
+                    [172, 50000],
+                    [469, 60000]
                     ]
             },
             'fill-extrusion-opacity': 0.9
@@ -68,4 +68,4 @@ map.on('load', function() {
 </script>
 
 </body>
-</html>
+</html> 
